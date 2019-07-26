@@ -1,15 +1,15 @@
 <?php
 
-class About {
+class About extends Controller{
 
 	public function index($name = 'RobotBernyawa',$work = 'Software Engineer', $age = 23)
 	{
-		echo "Hello friends, you can call me $name, and i am a $work. I am $age years old when i create this simple php framework.";
+		$this->view('about/index');
 	}
 
 	public function page()
 	{
-		echo 'About/page';
+		$this->view('about/page');
 	}
 
 }
