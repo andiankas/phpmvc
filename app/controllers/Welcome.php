@@ -1,10 +1,10 @@
 <?php
 
-class Welcome {
+class Welcome extends Controller{
 
 	public function index()
 	{
-		echo 'Welcome';
+		$this->view('welcome/index');
 	}
 
 }

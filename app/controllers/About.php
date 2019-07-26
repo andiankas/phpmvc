@@ -2,9 +2,9 @@
 
 class About {
 
-	public function index($nama = 'RobotBernyawa',$pekerjaan = 'Mahasiswa')
+	public function index($name = 'RobotBernyawa',$work = 'Software Engineer', $age = 23)
 	{
-		echo "Nama saya $nama, saya adalah seorang $pekerjaan";
+		echo "Hello friends, you can call me $name, and i am a $work. I am $age years old when i create this simple php framework.";
 	}
 
 	public function page()

@@ -4,7 +4,7 @@ class Home {
 
 	public function index()
 	{
-		echo 'HOME/INDEX/Andi';
+		$this->view('home/index');
 	}
 
 }
